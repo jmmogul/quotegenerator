@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image: url(images/web-1012467_1280.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.quote-box{
+
+   background:transparent;
+   height: 30%;
+   width: 30%;
+   border: none solid ;
+   border-radius: 10px;
+   color: white;
+}
+
+h3{
+    font-family: monospace;
+    text-align: center;
+   font-weight: bold;
+ 
+}
+
+p{
+    margin-top: 20PX;
+    text-decoration: dotted;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    font-style: oblique;
+    height: 20px;
+
+}
+button{
+    padding: 10px 30px;
+    margin-top: 70px;
+    display: grid;
+    place-self: center;
+    background-color: rgb(255, 248, 254);
+    cursor: pointer;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: none;
+    color: rgb(250, 18, 238);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
